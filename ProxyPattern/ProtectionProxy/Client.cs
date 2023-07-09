@@ -2,7 +2,7 @@ using ProtectionProxy.Interface;
 
 namespace ProtectionProxy;
 
-public class ProtectionProxyClient
+public class Client
 {
     public bool ClientCode(ISubject subject)
     {

@@ -13,7 +13,7 @@ public class ProtectionProxyTest
     [Test]
     public void Test1()
     {
-        var client = new ProtectionProxyClient();
+        var client = new Client();
         
         Subject subject = new Subject();
         

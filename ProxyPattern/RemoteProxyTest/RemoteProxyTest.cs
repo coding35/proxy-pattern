@@ -15,7 +15,7 @@ public class Tests
     [Test]
     public void Test1()
     {
-        var client = new RemoteProxyClient();
+        var client = new Client();
         
         Subject? subject = new Subject();
         
@@ -27,5 +27,6 @@ public class Tests
         var remoteProxy = new global::RemoteProxy.RemoteProxy(subject);
         client.ClientCode(remoteProxy);
         Console.WriteLine(subject.GetData());
+        Assert.NotNull(subject.GetData());
     }
 }

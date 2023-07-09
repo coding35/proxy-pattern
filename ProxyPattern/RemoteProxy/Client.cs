@@ -1,8 +1,8 @@
+
 using RemoteProxy.Interface;
 
 namespace RemoteProxy;
-
-public class RemoteProxyClient
+public class Client
 {
     public void ClientCode(ISubject? subject)
     {
